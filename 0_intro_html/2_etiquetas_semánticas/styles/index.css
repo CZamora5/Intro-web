@@ -1,0 +1,73 @@
+:root {
+  --clr-primary: #E547AD;
+  --clr-secondary: #B00573;
+  --clr-accent: #79bdce;
+  --clr-light: white;
+}
+
+body {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-primary {
+  background-color: var(--clr-primary);
+}
+
+.bg-secondary {
+  background-color: var(--clr-secondary);
+}
+
+.bg-accent {
+  background-color: var(--clr-accent);
+}
+
+.txt-light {
+  color: var(--clr-light);
+}
+
+.txt-accent {
+  color: var(--clr-accent);
+}
+
+.flex {
+  display: flex;
+}
+
+.txt-upper {
+  text-transform: uppercase;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+  padding-right: 10px;;
+}
+
