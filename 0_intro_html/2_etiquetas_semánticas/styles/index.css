@@ -26,12 +26,15 @@ p {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .bg-primary {
@@ -66,8 +69,67 @@ ul {
   text-align: center;
 }
 
+.txt-right {
+  text-align: right;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
 .float-left {
   float: left;
   padding-right: 10px;;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: var(--clr-light);
+}
+
+.navbar li + li {
+  margin-left: 1em;
+}
+
+.articles {
+  flex-basis: 70%;
+}
+
+aside {
+  flex-basis: 30%;
+  margin-left: 1rem;
+}
+
+aside ul {
+  margin-left: 0.5em;
+}
+
+aside a {
+  text-decoration: none;
+  color: var(--clr-accent);
+}
+
+footer section > .flex > * {
+  flex: 1;
+}
+
+footer .navbar .flex {
+  flex-direction: row-reverse;
+}
+
+button {
+  padding: 0.75rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: 0;
+  margin-block: 1em;
+  font-weight: bold;
+}
+
+article h1 {
+  margin-bottom: 0.5rem;
+}
+
+img {
+  width: 240px;
+}
