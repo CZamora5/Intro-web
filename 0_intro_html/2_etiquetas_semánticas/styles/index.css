@@ -32,7 +32,7 @@ ul {
 
 .wrapper {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -87,8 +87,17 @@ ul {
   color: var(--clr-light);
 }
 
+.navbar a:hover {
+  color: var(--clr-accent);
+}
+
 .navbar li + li {
   margin-left: 1em;
+}
+
+.navbar.txt-right li + li {
+  margin-right: 1em;
+  margin-left: 0;
 }
 
 .articles {
@@ -109,6 +118,10 @@ aside a {
   color: var(--clr-accent);
 }
 
+aside a:hover {
+  color: var(--clr-primary);
+}
+
 footer section > .flex > * {
   flex: 1;
 }
@@ -124,6 +137,11 @@ button {
   border: 0;
   margin-block: 1em;
   font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7989ce;
 }
 
 article h1 {
@@ -132,4 +150,8 @@ article h1 {
 
 img {
   width: 240px;
+}
+
+p {
+  line-height: 1.5em;
 }
