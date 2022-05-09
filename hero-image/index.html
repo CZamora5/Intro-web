@@ -5,27 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
   <title>Hero image</title>
 </head>
 <body>
   <header>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Hire me</a></li>
-    </ul>
+    <div class="wrapper">
+      <ul class="flex">
+        <li class="txt-upper"><a href="#">Home</a></li>
+        <li class="txt-upper"><a href="#">About</a></li>
+        <li class="txt-upper"><a href="#">Projects</a></li>
+        <li class="txt-upper"><a href="#">Hire me</a></li>
+      </ul>
+    </div>
   </header>
   <main>
-    <section>
-      <h1>Carlos Zamora</h1>
-      <h2>Designer and software developer</h2>
-      <h2>Mexico</h2>
+    <section  class="txt-upper wrapper">
+      <h1 class="hero-title">Carlos Zamora</h1>
+      <div class="flex">
+        <h2 class="hero-subtitle">Designer and software developer</h2>
+        <h2 class="hero-subtitle">Mexico</h2>
+      </div>
     </section>
-
-    <section>
-      <h2>About</h2>
-      <p>An independent multidisciplinary designer - Helping brands tell powerfull, authentic story, working closely with any clients - And curated global network of clients, I strategise, produce, find and license the best result.</p>
+    <section class="wrapper">
+      <div class="circle">
+        <p class="txt-upper">Hire me!</p>
+      </div>
+    </section>
+    <section class="txt-upper wrapper">
+      <h2 class="about-title">About</h2>
+      <p class="paragraph">An independent multidisciplinary designer - Helping brands tell powerfull, authentic story, working closely with any clients - And curated global network of clients, I strategise, produce, find and license the best result.</p>
     </section>
   </main>
 </body>
