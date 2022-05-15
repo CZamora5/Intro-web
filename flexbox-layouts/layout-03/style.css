@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0;
+  border: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 0.5em;
+  width: fit-content;
+  height: fit-content;
+  margin-inline: auto;
+  background-color: #4B443B;
+}
+
+.item {
+  min-width: 150px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+}
+
+.rectangle {
+  height: 100px;
+}
+
+.margin {
+  margin: 0.5em;
+}
